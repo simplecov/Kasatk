@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayerComponent implements OnInit {
 
+  private health : number;
+  private energy : number;
+  private movemement : number;
+
   constructor() { }
 
   ngOnInit() {
